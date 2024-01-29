@@ -1,4 +1,4 @@
-
+--- Source Code
 --[[ 
     Guardian: User-End Script Protection
     Prevents Scripts from Stealing In-Game Items
@@ -6,6 +6,7 @@
     Ex: RCE Vulnerability in Script
     Ex: Logs Username to Discord (via Webhook)
     Use this Script to be Protected againsts malicious scripts
+    Works with Raw Github, Pastebin and more.
 
     Note:
     If you have full trust in the script,
@@ -35,4 +36,4 @@ else
   loadstring(game:HttpGet("https://raw.githubusercontent.com/GalacticHypernova/Guardian/main/CodexTest"))()
 end
 
-loadstring(game:HttpGet(link))()
+loadstring(link)()
